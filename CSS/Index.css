@@ -1,22 +1,11 @@
-/* ======================================================
-ESTILOS GENERALES Y ESTRUCTURA
-====================================================== */
-
 body {
-    /* Define un fondo, tipografía y color de texto coherente */
-    background-color: #f7f3e8; /* Color crema suave (fondo de pan) */
+    background-color: #f7f3e8; /* Color crema suave (relacionado con nuestra panaderia) */
     color: #333; /* Texto oscuro */
     margin: 0; /* Elimina márgenes por defecto */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-    /* SOLUCIÓN AL FOOTER FIJO: Deja espacio en la parte inferior */
-     
 }
 
-/* ======================================================
-HEADER Y NAVEGACIÓN
-====================================================== */
+/* HEADER Y NAV */
 
 header {
     background-color: #c9a384; /* Color de fondo marrón suave */
@@ -45,10 +34,10 @@ header p {
 
 nav {
     width: 100%;
-    background-color: rgb(44, 44, 44); /* Color más oscuro para la barra */
+    background-color: rgb(44, 44, 44); /* Color de la barra */
     display: flex;
     justify-content: center; /* Centra los enlaces horizontalmente */
-    gap: 20px;
+    gap: 50px; /* Separación entre los enlaces del nav */
     padding: 10px 0; 
 }
 

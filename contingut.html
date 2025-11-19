@@ -1,31 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contingut</title>
-</head>
+    <title>Nuestros Productos - PanaderiaDigital</title>
+    <link rel="stylesheet" href="CSS/Contingut.css">
+    </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contingut.html" class="activo">Nuestros Productos</a>
+            <a href="info.html">Sobre nosotros</a>
+        </nav>
+        <h1>Nuestro Catálogo</h1>
+        <p>Explora nuestras categorías y haz tu pedido.</p>
+    </header>
+
     <main>
-        <table border="1px"  align="center">
-            <tr>    
-                <td>Tipo de pan</td>
-                <td>Precio</td>
-                <td>Foto</td>        
-            </tr>
-            <tr>
-                <td>Baguette</td>
-                <td>1.50€</td>
-                <td>
-                    <img src="Imagenes/BarraDePanBaguette.avif" width="100px" alt="Baguette">
-                </td>
-            </tr>
-            <tr>
-                <td>Barra Campesina</td>
-                <td>3€</td>
-                <td><img src="Imagenes/BarraDePanCampesina.jpg" width="100px" alt="Barra campesina"></td>
-            </tr>
-        </table>
+        
+        <section class="categoria-panes">
+            <h2>🍞 Panes de Masa Padre</h2>
+            <p>La base de nuestra tradición: cocción lenta, sabor inconfundible.</p>
+
+            <article class="producto-item">
+                <img src="Imagenes/BarraDePanBaguette.avif" alt="Baguette tradicional francesa con corteza crujiente" width="250">
+                <h3>Baguette</h3>
+                <p>Baguette tradicional francesa con corteza crujiente. Precio: 3.50€</p>
+                <a href="detall.html?id=payes" class="btn-detalle">Ver Detalle y Proceso</a>
+            </article>
+
+            <article class="producto-item">
+                <img src="Imagenes/BarraDePanCampesina.jpg" alt="Barra de pan campesina" width="250">
+                <h3>Barra de pan Campesina</h3>
+                <p>Crujiente y nutritivo, perfecto para tostadas y ensaladas. Precio: 2.50€</p>
+                <a href="detall.html?id=cereales" class="btn-detalle">Ver Detalle y Proceso</a>
+            </article>
+
+            <article class="producto-item">
+                <img src="Imagenes/BarraDePanBaguette.avif" alt="Baguette tradicional francesa con corteza crujiente" width="250">
+                <h3>Baguette Tradicional</h3>
+                <p>La clásica que nunca falla. Ideal para bocadillos. Precio: 1.50€</p>
+                <a href="detall.html?id=baguette" class="btn-detalle">Ver Detalle y Proceso</a>
+            </article>
+
+        </section>
+        
+        <hr> <section class="categoria-bolleria">
+            <h2>🥐 Bollería Artesanal</h2>
+            <p>El placer dulce de la mañana. Hecho con mantequilla de alta calidad.</p>
+
+            <article class="producto-item">
+                <img src="Imagenes/CROISSANT.jpg" alt="Croissant de mantequilla recién horneado" width="250">
+                <h3>Croissant de Mantequilla</h3>
+                <p>Hojaldre perfecto y ligero. El favorito de nuestros clientes. Precio: 1.90€</p>
+                <a href="detall.html?id=croissant" class="btn-detalle">Ver Detalle y Proceso</a>
+            </article>
+            
+            <article class="producto-item">
+                <img src="Imagenes/ENSAYMADA.jpg" alt="Ensaimada mallorquina espolvoreada con azúcar glass" width="250">
+                <h3>Ensaimada Clásica</h3>
+                <p>Directa de la tradición mediterránea. Perfecta para compartir. Precio: 8.00€</p>
+                <a href="detall.html?id=ensaimada" class="btn-detalle">Ver Detalle y Proceso</a>
+            </article>
+
+        </section>
+
     </main>
+
+    <footer>
+        </footer>
 </body>
 </html>
