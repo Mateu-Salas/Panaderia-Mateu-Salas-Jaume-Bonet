@@ -1,22 +1,113 @@
-.instagram{
-        display:inline-block;
+/* ======================================================
+ESTILOS GENERALES Y ESTRUCTURA
+====================================================== */
+
+body {
+    /* Define un fondo, tipografía y color de texto coherente */
+    background-color: #f7f3e8; /* Color crema suave (fondo de pan) */
+    color: #333; /* Texto oscuro */
+    margin: 0; /* Elimina márgenes por defecto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    /* SOLUCIÓN AL FOOTER FIJO: Deja espacio en la parte inferior */
+     
 }
+
+/* ======================================================
+HEADER Y NAVEGACIÓN
+====================================================== */
+
+header {
+    background-color: #c9a384; /* Color de fondo marrón suave */
+    color: white;
+    padding-bottom: 20px;
+    
+    /* Configuración para centrar todo el contenido del header */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+
+header h1 {
+    margin-bottom: 5px;
+    
+}
+
+.H1-2{
+    margin-top: 0;
+}
+
+header p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(44, 44, 44); /* Color más oscuro para la barra */
+    display: flex;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    gap: 20px;
+    padding: 10px 0; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    padding: 5px 10px;
+}
+
+/* MAIN */
+
+main {
+    padding: 20px; /* Espacio alrededor del contenido principal */
+    max-width: 1000px; /* Límite de ancho para que no se extienda demasiado */
+    margin: 0 auto; /* Centra el contenedor principal */
+}
+
+/* Estilos de la imagen principal */
+.general-info img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: auto;
+    border-radius: 8px; /* Borde redondeado para estética */
+    margin: 20px 0;
+}
+
+
+
+/* FOOTER */
 
 footer {
-    position: fixed;      
-    bottom: 0;            
+    /* Estilos para que el footer se quede fijo abajo */
+    position: fixed; 
+    bottom: 0; 
     left: 0;
-    width: 100%;          
+    width: 100%; 
+    background-color: #4a2c1f; /* Color oscuro para contraste */
     text-align: center;
-    color: white;          
-    padding: 10px 0;       
-    font-size: 14px;       
+    color: white; 
+    padding: 10px 0; 
+    font-size: 14px; 
+    z-index: 1000; /* Asegura que el footer quede por encima de otros elementos */
 }
 
-.tabla_instagram{
-    .tabla-contenedor {
-    display: flex;
-    justify-content: center; /* centra horizontalmente */
+/* Corrección de la tabla y centrado de contenido */
+.tabla_instagram {
+    /* Centra la tabla dentro del footer */
+    margin: 5px auto; 
+    border-collapse: collapse; /* Estética de tabla */
 }
 
+.tabla_instagram td {
+    padding: 0 10px;
+}
+
+.instagram {
+    display: inline-block;
+    color: #f7f3e8; /* Texto de Instagram claro */
+}
+
+.instagram-link {
+    text-decoration: none;
 }
