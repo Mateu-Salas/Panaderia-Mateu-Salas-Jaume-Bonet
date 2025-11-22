@@ -1,63 +1,84 @@
-/* ESTILOS BASE */
+/* ======================================================
+1. ESTIL GLOBAL I BASE
+====================================================== */
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f7f3e8;
     color: #333;
-    margin: 0;
     font-family: sans-serif;
     line-height: 1.6;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
+    
 }
 
-/* HEADER Y NAVEGACIÓN */
+a {
+    text-decoration: none; 
+    color: inherit;   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 header {
-    background-color: #c9a384; /* Color de fondo marrón suave */
+    background-color: #c9a384; 
     color: white;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column; 
     align-items: center;    
+    text-align: center; 
 }
+
 
 nav {
     width: 100%;
-    background-color: rgb(44, 44, 44); /* Color de la barra */
+    background-color: rgb(44, 44, 44); 
     display: flex;
-    justify-content: center; /* Centra los enlaces horizontalmente */
-    gap: 50px; /* Separación entre los enlaces del nav */
+    justify-content: center;
+    gap: 50px; /* VALOR UNIFICAT */
     padding: 10px 0; 
-    
 }
 
 nav a {
     color: white;
-    text-decoration: none; 
-    padding: 5px 10px;   
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: normal; 
 }
 
-/* CONTENIDO PRINCIPAL */
+
+header h1 {
+    font-size: 2.5em; 
+    margin-top: 15px; 
+    margin-bottom: 0; 
+}
+
+header p {
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
+
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* ESTILOS DE SECCIÓN Y DISPOSICIÓN DE TARJETAS (FLEXBOX) */
-.categoria-panes, .categoria-bolleria {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 30px; 
-    padding: 20px 0;
-    text-align: center; /* Alinea los textos dentro de la sección */
-}
-
-/* Estilo para los TÍTULOS y DESCRIPCIONES de Sección */
 .categoria-panes h2, .categoria-bolleria h2 {
-    width: 100%; /* Ocupa el ancho completo para centrar */
+    width: 100%; 
     color: #4a2c1f;
     border-bottom: 2px solid #c9a384;
     padding-bottom: 10px;
-    
+    margin: 30px auto 20px auto; 
 }
 
 .categoria-panes p, .categoria-bolleria p {
@@ -66,7 +87,16 @@ main {
     margin-bottom: 20px; 
 }
 
-/* ESTILO DE CADA TARJETA */
+.categoria-panes, .categoria-bolleria {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+
 .producto-item {
     background-color: white;
     border: 1px solid #ddd;
@@ -80,26 +110,20 @@ main {
 }
 
 
-
-
-/* IMAGEN DENTRO DE LA TARJETA */
 .producto-item img {
-    width: 100%; /* <- Aquesta línia assegura que ompli l'ample de la targeta (300px) */
+    width: 100%;
     height: 180px; 
     object-fit: cover;
-    border-style: solid;
-    border: 1px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    
+    border: none;
+    border-radius: 8px; 
+    margin-bottom: 10px; 
 }
 
-/* BOTÓN DE DETALLE */
+
 .btn-detalle {
     display: block; 
     background-color: #c9a384; 
     color: white;
-    text-decoration: none;
     padding: 10px 15px;
     border-radius: 4px;
     font-weight: bold;
@@ -109,9 +133,38 @@ main {
 
 .btn-detalle:hover {
     background-color: #a88165; 
-}/* REGLA GENERAL PER EVITAR QUE LES IMATGES ES DESBORDIN */
+}
 
-img {
-    max-width: 100%; /* La imatge mai serà més ampla que el seu contenidor */
-    height: auto;    /* Manté la proporció per evitar distorsions */
+
+footer {
+    width: 100%; 
+    background-color: #4a2c1f; 
+    color: white; 
+    padding: 5px 0; 
+    font-size: 14px;  
+    text-align: center;
+    position: relative; 
+    left: 0; 
+  
+}
+
+.tabla_instagram {
+    
+    margin: 10px auto; 
+    border-collapse: collapse; 
+ 
+}
+
+.tabla_instagram td {
+    padding: 0 8px; 
+}
+
+
+.instagram {
+    display: inline-block;
+    color: #f7f3e8; 
+}
+
+.instagram-link {
+    text-decoration: none;
 }
