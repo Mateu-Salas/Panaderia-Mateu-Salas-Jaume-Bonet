@@ -1,32 +1,36 @@
 /* ======================================================
 1. ESTIL GLOBAL I BASE
 ====================================================== */
+
+/* Aplica box-sizing a todos los elementos y elimina márgenes y paddings por defecto */
 * {
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
 
+/* Estilos generales del body: fondo, fuente, color de texto y espacio inferior */
 body {
     background-color: #f7f3e8;
     color: #333;
     font-family: sans-serif;
     line-height: 1.6;
-    padding-bottom: 0px;
-    
+    padding-bottom: 0px;  
 }
 
+/* Estilo de enlaces: sin subrayado y hereda color del contenedor */
 a {
     text-decoration: none; 
     color: inherit;   
 }
 
+/* Imágenes responsivas: ancho máximo 100% y altura automática */
 img {
     max-width: 100%;
     height: auto;
 }
 
-
+/* Estilos del header: fondo, color de texto, padding y alineación */
 header {
     background-color: #c9a384; 
     color: white;
@@ -37,16 +41,17 @@ header {
     text-align: center; 
 }
 
-
+/* Barra de navegación: ancho completo, fondo oscuro y centrado */
 nav {
     width: 100%;
     background-color: rgb(44, 44, 44); 
     display: flex;
     justify-content: center;
-    gap: 50px; /* VALOR UNIFICAT */
+    gap: 50px; /* Espacio entre enlaces */
     padding: 10px 0; 
 }
 
+/* Estilo de enlaces dentro del nav: color blanco, padding y fuente normal */
 nav a {
     color: white;
     text-decoration: none;
@@ -54,25 +59,27 @@ nav a {
     font-weight: normal; 
 }
 
-
+/* Título principal dentro del header: tamaño de fuente y márgenes */
 header h1 {
     font-size: 2.5em; 
     margin-top: 15px; 
     margin-bottom: 0; 
 }
 
+/* Párrafo dentro del header: eliminar márgenes superior e inferior */
 header p {
     margin-top: 0; 
     margin-bottom: 0;
 }
 
-
+/* Contenido principal: padding, ancho máximo y centrado automático */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Estilos para títulos de secciones de panes y bollería */
 .categoria-panes h2, .categoria-bolleria h2 {
     width: 100%; 
     color: #4a2c1f;
@@ -81,12 +88,14 @@ main {
     margin: 30px auto 20px auto; 
 }
 
+/* Estilo de párrafos de categorías: ancho completo, centrado y margen inferior */
 .categoria-panes p, .categoria-bolleria p {
     width: 100%; 
     text-align: center;
     margin-bottom: 20px; 
 }
 
+/* Contenedor de productos en categorías: flex wrap y centrado */
 .categoria-panes, .categoria-bolleria {
     display: flex;
     flex-wrap: wrap; 
@@ -96,7 +105,7 @@ main {
     text-align: center;
 }
 
-
+/* Estilo individual de cada producto: fondo blanco, borde, padding y flex vertical */
 .producto-item {
     background-color: white;
     border: 1px solid #ddd;
@@ -109,7 +118,7 @@ main {
     justify-content: space-between; 
 }
 
-
+/* Imagen dentro de producto: ancho completo, altura fija, borde redondeado y margin */
 .producto-item img {
     width: 100%;
     height: 180px; 
@@ -119,7 +128,7 @@ main {
     margin-bottom: 10px; 
 }
 
-
+/* Botón de detalle de producto: bloque, color de fondo, padding, borde redondeado y transición */
 .btn-detalle {
     display: block; 
     background-color: #c9a384; 
@@ -131,11 +140,12 @@ main {
     transition: background-color 0.3s;
 }
 
+/* Hover del botón detalle: cambia ligeramente el color de fondo */
 .btn-detalle:hover {
     background-color: #a88165; 
 }
 
-
+/* Footer: ancho completo, fondo oscuro, color blanco, padding y centrado */
 footer {
     width: 100%; 
     background-color: #4a2c1f; 
@@ -145,26 +155,26 @@ footer {
     text-align: center;
     position: relative; 
     left: 0; 
-  
 }
 
+/* Tabla de Instagram: centrado y sin separación de bordes */
 .tabla_instagram {
-    
     margin: 10px auto; 
     border-collapse: collapse; 
- 
 }
 
+/* Celdas de la tabla de Instagram: padding horizontal */
 .tabla_instagram td {
     padding: 0 8px; 
 }
 
-
+/* Estilo de nombres de Instagram: inline-block y color */
 .instagram {
     display: inline-block;
     color: #f7f3e8; 
 }
 
+/* Enlace de Instagram: sin subrayado */
 .instagram-link {
     text-decoration: none;
 }

@@ -1,10 +1,11 @@
-
+/* Aplica box-sizing a todos los elementos e inicializa margen y padding a 0 */
 * {
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
 
+/* Estilos generales del body: fondo, color de texto, fuente, altura de línea y padding inferior */
 body {
     background-color: #f7f3e8; 
     color: #333;
@@ -13,16 +14,19 @@ body {
     padding-bottom: 0px; 
 }
 
+/* Enlaces: sin subrayado y heredan color del contenedor */
 a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Imágenes: ancho máximo 100% y altura automática */
 img {
     max-width: 100%; 
     height: auto;
 }
 
+/* Header: fondo, color de texto, padding inferior, flex vertical y centrado */
 header {
     background-color: #c9a384; 
     color: white;
@@ -33,7 +37,7 @@ header {
     text-align: center; 
 }
 
-
+/* Barra de navegación: ancho completo, fondo oscuro, flex centrado con separación entre enlaces */
 nav {
     width: 100%;
     background-color: rgb(44, 44, 44); 
@@ -43,6 +47,7 @@ nav {
     padding: 10px 0; 
 }
 
+/* Enlaces dentro de nav: color blanco, padding y fuente normal */
 nav a {
     color: white;
     text-decoration: none;
@@ -50,19 +55,21 @@ nav a {
     font-weight: normal; 
 }
 
-
+/* Título principal del header: tamaño de fuente y márgenes */
 header h1 {
     font-size: 2.5em; 
     margin-top: 15px; 
     margin-bottom: 0;
 }
 
+/* Segundo título H1 (clase H1-2): tamaño más pequeño y márgenes */
 .H1-2 {
     font-size: 1.5em; 
     margin-top: 0; 
     margin-bottom: 0;
 }
 
+/* Párrafo dentro del header: márgenes y estilo en cursiva */
 header p {
     margin-top: 0; 
     margin-bottom: 25px;
@@ -70,13 +77,14 @@ header p {
     margin-bottom: 0;
 }
 
-
+/* Contenido principal: padding, ancho máximo y centrado */
 main {
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* Imágenes dentro del main u otros contenedores: margin superior e inferior, ancho máximo y altura automática */
  img {
     margin-top: 15px;
     max-width: 100%; 
@@ -84,6 +92,7 @@ main {
     margin: 20px 0;
 }
 
+/* Footer: ancho completo, fondo, color, padding, fuente y centrado */
 footer {
     width: 100%; 
     background-color: #4a2c1f; 
@@ -93,26 +102,26 @@ footer {
     text-align: center;
     position: relative; 
     left: 0; 
-  
 }
 
+/* Tabla de Instagram: centrado y sin separación de bordes */
 .tabla_instagram {
-    
     margin: 10px auto; 
     border-collapse: collapse; 
- 
 }
 
+/* Celdas de la tabla de Instagram: padding horizontal */
 .tabla_instagram td {
     padding: 0 8px; 
 }
 
-
+/* Nombre de Instagram: inline-block y color de texto */
 .instagram {
     display: inline-block;
     color: #f7f3e8; 
 }
 
+/* Enlaces de Instagram: sin subrayado */
 .instagram-link {
     text-decoration: none;
 }
