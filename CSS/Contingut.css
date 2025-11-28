@@ -46,8 +46,7 @@ nav {
     width: 100%;
     background-color: rgb(44, 44, 44); 
     display: flex;
-    justify-content: center;
-    gap: 50px; /* Espacio entre enlaces */
+    justify-content: space-evenly;
     padding: 10px 0; 
 }
 
