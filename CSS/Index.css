@@ -1,3 +1,12 @@
+@media (max-width: 480px){
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+
 /* Aplica box-sizing a todos los elementos e inicializa margen y padding a 0 */
 * {
     box-sizing: border-box; 
@@ -10,8 +19,12 @@ body {
     background-color: #f7f3e8; 
     color: #333;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
     line-height: 1.6; 
     padding-bottom: 0px; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Enlaces: sin subrayado y heredan color del contenedor */
@@ -42,8 +55,7 @@ nav {
     width: 100%;
     background-color: rgb(44, 44, 44); 
     display: flex;
-    justify-content: center;
-    gap: 50px; 
+    justify-content: space-evenly;
     padding: 10px 0; 
 }
 
@@ -82,6 +94,7 @@ main {
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
+    flex: 1;
 }
 
 /* Imágenes dentro del main u otros contenedores: margin superior e inferior, ancho máximo y altura automática */
