@@ -39,6 +39,11 @@ img {
     height: auto;
 }
 
+#ImagenPanaderia{
+    
+    width: 40em;
+}
+
 /* Header: fondo, color de texto, padding inferior, flex vertical y centrado */
 header {
     background-color: #c9a384; 
