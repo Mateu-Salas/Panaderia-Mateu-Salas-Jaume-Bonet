@@ -1,6 +1,5 @@
-/* ======================================================
-1. ESTIL GLOBAL I BASE
-====================================================== */
+
+
 
 /* Aplica box-sizing a todos los elementos y elimina márgenes y paddings por defecto */
 * {
@@ -176,4 +175,28 @@ footer {
 /* Enlace de Instagram: sin subrayado */
 .instagram-link {
     text-decoration: none;
+}
+
+
+@media (max-width: 300px) {
+    header h1, .H1-2 {
+        font-size: 0.9em; 
+    }
+
+    main p {
+        font-size: 0.7em; 
+        padding: 5px;     
+    }
+
+    #ImagenPanaderia {
+        width: 80%;      
+    }
+
+    nav {
+        flex-direction: column;      
+    }
+
+    footer {
+        font-size: 0.6em;       
+    }
 }
