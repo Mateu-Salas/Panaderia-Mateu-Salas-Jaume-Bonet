@@ -8,6 +8,9 @@ Aquest projecte consisteix en el disseny i desenvolupament d'una pàgina web per
 * Mateu Salas Terés
 * Jaume Bonet Gigante
 
+**Paleta de colors utilitzada**
+La pàgina web, empra colors agradables i visuals que recorden al color del pà, visualment es agradable perquè no té colors forts i són llegibles.
+
 **Distribució del treball:**
 El projecte s'ha realitzat de manera col·laborativa amb un repartiment equitatiu de les tasques (**50% / 50%**). Ambdós membres han participat en:
 * Estructuració del codi HTML.
