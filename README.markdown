@@ -19,7 +19,7 @@ El projecte s'ha realitzat de manera col·laborativa(**50% / 50%**):
 * Redacció del contingut.
 
 **Demostració Responsive**
-![Responsive](Imagenes/Responsive_Index_colummnas.png)
+![Responsive](Imagenes/Responsive_Index_columnas.png)
 ![No_Responsive](Imagenes/Responsive_index_fila.png)
 
 ---
