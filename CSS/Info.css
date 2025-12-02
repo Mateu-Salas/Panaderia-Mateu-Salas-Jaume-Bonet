@@ -1,27 +1,27 @@
-@media (max-width: 200px) {
-    header h1, .H1-2 {
-        font-size: 0.5em; 
+@media (max-width: 350px) {
+    header h1 {
+        font-size: 1.5em; 
     }
 
     main p {
-        font-size: 0.7em; 
-        padding: 5px;     
+        font-size: 1.2em; 
+        padding: 5px; 
+        text-align: center;    
     }
 
     #ImagenPanaderia {
-        width: 80%;      
+        width: 100%;      
     }
 
     nav {
         flex-direction: column; 
-        font-size: 0.6em;      
+        font-size: 1em;      
     }
 
     footer {
-        font-size: 0.6em;       
+        font-size: 1em;       
     }
 }
-
 
 /* Aplica box-sizing a todos los elementos */
 * {
