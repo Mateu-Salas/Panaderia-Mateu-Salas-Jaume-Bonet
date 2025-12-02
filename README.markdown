@@ -28,14 +28,14 @@ El projecte s'ha realitzat de manera col·laborativa(**50% / 50%**):
 
 El projecte segueix la següent organització de directoris:
 
+```
 /
+├── 📁 CSS/                           # Fulls d'estil en cascada
+│   ├── Contingut.css                # Estils per a la pàgina de productes/catàleg
+│   ├── Detall.css                   # Estils per a les fitxes de detall de producte
+│   └── Index.css                    # Estils per a la pàgina principal i general
 │
-├── 📁 CSS/                  # Fulls d'estil en cascada
-│   ├── Contingut.css        # Estils per a la pàgina de productes/catàleg
-│   ├── Detall.css           # Estils per a les fitxes de detall de producte
-│   └── Index.css            # Estils per a la pàgina principal i general
-│
-├── 📁 Imagenes/             # Recursos gràfics
+├── 📁 Imagenes/                     # Recursos gràfics
 │   ├── BarraDePanBaguette.avif
 │   ├── BarraDePanCampesina.jpg
 │   ├── CroissantMantequilla.png
@@ -45,9 +45,10 @@ El projecte segueix la següent organització de directoris:
 │   ├── logo-Panaderia.png
 │   └── PanIntegral.png
 │
-├── 📄 Index.html            # Pàgina d'inici (Home)
-├── 📄 contingut.html        # Catàleg de productes
-├── 📄 DetallBaguette.html   # Pàgina de detall: Baguette
-├── 📄 DetallCampesina.html  # Pàgina de detall: Pa de pagès/Campesina
-├── 📄 info.html             # Informació general de l'empresa
-└── 📄 README.md             # Documentació del projecte
+├── Index.html                       # Pàgina d'inici (Home)
+├── contingut.html                   # Catàleg de productes
+├── DetallBaguette.html              # Pàgina de detall: Baguette
+├── DetallCampesina.html             # Pàgina de detall: Pa de pagès/Campesina
+├── info.html                        # Informació general de l'empresa
+└── README.md                        # Documentació del projecte
+```
