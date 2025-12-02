@@ -12,7 +12,7 @@ Aquest projecte consisteix en el disseny i desenvolupament d'una pàgina web per
 La pàgina web, empra colors agradables i visuals que recorden al color del pà, visualment es agradable perquè no té colors forts i són llegibles.
 
 **Distribució del treball:**
-El projecte s'ha realitzat de manera col·laborativa amb un repartiment equitatiu de les tasques (**50% / 50%**). Ambdós membres han participat en:
+El projecte s'ha realitzat de manera col·laborativa(**50% / 50%**):
 * Estructuració del codi HTML.
 * Estils i disseny amb CSS.
 * Cerca i edició d'imatges.
@@ -24,8 +24,7 @@ El projecte s'ha realitzat de manera col·laborativa amb un repartiment equitati
 
 El projecte segueix la següent organització de directoris:
 
-```text
-/ (Arrel del projecte)
+/
 │
 ├── 📁 CSS/                  # Fulls d'estil en cascada
 │   ├── Contingut.css        # Estils per a la pàgina de productes/catàleg
