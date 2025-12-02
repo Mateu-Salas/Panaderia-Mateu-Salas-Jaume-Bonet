@@ -1,30 +1,3 @@
-
-
-@media (max-width: 200px) {
-    header h1, .H1-2 {
-        font-size: 0.5em; 
-    }
-
-    main p {
-        font-size: 0.7em; 
-        padding: 5px;     
-    }
-
-    #ImagenPanaderia {
-        width: 80%;      
-    }
-
-    nav {
-        flex-direction: column; 
-        font-size: 0.6em;      
-    }
-
-    footer {
-        font-size: 0.6em;       
-    }
-}
-
-
 /* Aplica box-sizing a todos los elementos e inicializa margen y padding a 0 */
 * {
     box-sizing: border-box; 
@@ -55,10 +28,7 @@ img {
     height: auto;
 }
 
-#ImagenPanaderia{
-    
-    width: 40em;
-}
+
 
 /* Header: fondo, color de texto, padding inferior, flex vertical y centrado */
 header {
@@ -116,6 +86,7 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     flex: 1;
+    text-align: center;
 }
 
 /* Imágenes dentro del main u otros contenedores: margin superior e inferior, ancho máximo y altura automática */
@@ -158,4 +129,31 @@ footer {
 /* Enlaces de Instagram: sin subrayado */
 .instagram-link {
     text-decoration: none;
+}
+
+
+@media (max-width: 350px) {
+    header h1, .H1-2 {
+        font-size: 1.5em; 
+    }
+
+    main p {
+        font-size: 1.2em; 
+        padding: 5px; 
+        text-align: center;    
+    }
+
+    #ImagenPanaderia {
+        width: 100%;      
+    }
+
+    nav {
+        flex-direction: column; 
+       
+        font-size: 1em;      
+    }
+
+    footer {
+        font-size: 1em;       
+    }
 }
