@@ -18,6 +18,10 @@ El projecte s'ha realitzat de manera col·laborativa(**50% / 50%**):
 * Cerca i edició d'imatges.
 * Redacció del contingut.
 
+**Demostració Responsive**
+![Responsive](Imagenes/Responsive_Index_colummnas.png)
+![No_Responsive](Imagenes/Responsive_index_fila.png)
+
 ---
 
 ## 📂 Estructura de Carpetes i Arxius
