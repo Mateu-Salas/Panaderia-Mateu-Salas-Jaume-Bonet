@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PanaderiaDigital</title>
+    <link rel="stylesheet" href="CSS/Formularios.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a> <!-- Enlace a la página principal -->
+            <a href="contingut.html">Nuestros productos</a> <!-- Enlace al catálogo -->
+            <a href="info.html">Sobre Nosotros</a> <!-- Enlace a la información de la panadería -->
+            <a href="Login.html">Iniciar sesión</a> <!-- Enlace a iniciar sesión -->
+            <a href="Contacte.html">Contacte</a> <!-- Enlace al contacto -->
+        </nav>
+        <h1>Contacto</h1>
+    </header>
+
+    <main>
+        <section class="caja-formulario">
+            <h2>Envíanos un Mensaje</h2>
+            <p style="text-align:center; margin-bottom:20px;">Te responderemos lo antes posible.</p>
+            
+            <form method="post">
+                
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required 
+                       pattern="[A-Za-z\s]+" 
+                       title="Solo se permiten letras y espacios.">
+
+                <label for="email">Correu Electrònic:</label>
+                <input type="email" id="email" name="email" placeholder="nombre@correo.com" required>
+
+                <label for="mensaje">Mensaje / Comentario:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required maxlength="200"></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer> <!-- Pie de página con redes sociales e información -->
+        <table class="tabla_instagram"> <!-- Tabla con enlaces de Instagram -->
+            <tr> <!-- Fila de la tabla -->
+                <td> <!-- Celda con icono de Instagram -->
+                    <a href="https://www.instagram.com/mateu_salas" target="_blank" class="instagram-link"> <!-- Enlace al perfil -->
+                    <img src="Imagenes/Instagram.png" width="20" alt="Instagram"> <!-- Icono -->
+                    </a>
+                </td>
+                <td> <!-- Celda con nombre del perfil -->
+                    <a href="https://www.instagram.com/mateu_salas" target="_blank" class="instagram-link">
+                    <span class="instagram">mateu_salas</span> <!-- Nombre del perfil -->
+                    </a>
+                </td>
+
+                <td> <!-- Celda con icono de Instagram -->
+                    <a href="https://www.instagram.com/Jauume.07" target="_blank" class="instagram-link">
+                    <img src="Imagenes/Instagram.png" width="20" alt="Instagram"> <!-- Icono -->
+                    </a>
+                </td>
+                <td> <!-- Celda con nombre del perfil -->
+                    <a href="https://www.instagram.com/Jauume.07" target="_blank" class="instagram-link">
+                    <span class="instagram">Jauume.07</span> <!-- Nombre del perfil -->
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <p>© 2025 PanaderiaDigital by Mateu & Jaume. Todos los derechos reservados.</p> <!-- Derechos reservados -->
+        <p>Made with ❤️ by Mateu & Jaume</p> <!-- Créditos finales -->
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
