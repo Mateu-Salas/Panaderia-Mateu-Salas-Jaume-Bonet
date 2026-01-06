@@ -1,3 +1,4 @@
+/* Media query para pantallas muy pequeñas */
 @media (max-width: 200px) {
     header h1, .H1-2 {
         font-size: 0.5em; 
@@ -22,13 +23,12 @@
     }
 }
 
-
-/* Aplica box-sizing a todos los elementos para incluir padding y borde en el ancho total */
+/* Aplica box-sizing a todos los elementos */
 * {
     box-sizing: border-box; 
 }
 
-/* Estilos generales del body: fondo, color de texto, márgenes, fuente y line-height */
+/* Estilos generales del body */
 body {
     background-color: #f7f3e8; 
     color: #333;
@@ -38,19 +38,19 @@ body {
     padding-bottom: 0px; 
 }
 
-/* Enlaces sin subrayado y con color heredado */
+/* Enlaces */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Imágenes responsivas: ancho máximo 100% y altura automática */
+/* Imágenes */
 img {
     max-width: 100%; 
     height: auto;
 }
 
-/* Header: fondo, color de texto, padding, flex vertical, centrado y alineación */
+/* Header */
 header {
     background-color: #c9a384; 
     color: white;
@@ -61,7 +61,7 @@ header {
     text-align: center; 
 }
 
-/* Barra de navegación: ancho completo, fondo oscuro, flex centrado con espacio entre enlaces */
+/* Barra de navegación */
 nav {
     width: 100%;
     background-color: rgb(44, 44, 44); 
@@ -70,7 +70,7 @@ nav {
     padding: 10px 0; 
 }
 
-/* Enlaces dentro del nav: color blanco, padding y fuente normal */
+/* Enlaces dentro de nav */
 nav a {
     color: white;
     text-decoration: none;
@@ -78,14 +78,14 @@ nav a {
     font-weight: normal; 
 }
 
-/* Título principal del header: tamaño de fuente y márgenes */
+/* Título principal del header */
 header h1 {
     font-size: 2.5em; 
     margin-top: 15px;
     margin-bottom: 0; 
 }
 
-/* Footer: posición fija al fondo, ancho completo, color y centrado */
+/* Footer */
 footer {
     position: fixed; 
     bottom: 0; 
@@ -97,13 +97,13 @@ footer {
     text-align: center;
 }
 
-/* Tabla de horarios: centrada y sin separación de bordes */
+/* Tabla de horarios */
 .tabla-horarios {
     margin: 5px auto; 
     border-collapse: collapse; 
 }
 
-/* Contenido principal: padding, ancho máximo y centrado */
+/* Contenido principal */
 main {
     padding: 20px;
     max-width: 1000px;
@@ -111,7 +111,7 @@ main {
     padding-bottom: 70px;
 }
 
-/* Títulos h2: color, borde inferior, padding y centrado */
+/* Títulos h2 */
 h2 {
     color: #4a2c1f; 
     border-bottom: 2px solid #c9a384;
@@ -122,7 +122,7 @@ h2 {
     max-width: 500px;
 }
 
-/* Contenedores de categorías de productos: flex wrap, centrado y separación */
+/* Contenedores de categorías de productos */
 .categoria-panes, .categoria-bolleria {
     display: flex; 
     flex-wrap: wrap; 
@@ -132,7 +132,7 @@ h2 {
     text-align: center; 
 }
 
-/* Estilo individual de cada producto: flex vertical, fondo, borde, padding y ancho fijo */
+/* Estilo individual de cada producto */
 .producto-item {
     display: flex; 
     flex-direction: column; 
@@ -145,7 +145,7 @@ h2 {
     text-align: center;
 }
 
-/* Imagen dentro de producto: ancho completo, altura fija, bordes redondeados y margin */
+/* Imagen dentro de producto */
 .producto-item img {
     width: 100%;
     height: 180px; 
@@ -155,7 +155,7 @@ h2 {
     border: none; 
 }
 
-/* Botón de detalle: bloque, fondo, color, padding, borde redondeado, fuente en negrita */
+/* Botón de detalle */
 .btn-detalle {
     display: block; 
     background-color: #c9a384; 
@@ -166,13 +166,13 @@ h2 {
     margin-top: 15px; 
 }
 
-/* Contenedor de enlace para volver: centrado con margen */
+/* Contenedor de enlace para volver */
 .enlace-volver {
     text-align: center; 
     margin: 15px 0;
 }
 
-/* Botón volver: color, padding, borde redondeado y fuente en negrita */
+/* Botón volver */
 .btn-volver {
     background-color: #4a2c1f;
     color: white;
@@ -181,7 +181,7 @@ h2 {
     font-weight: bold;
 }
 
-/* Contenedor principal de información: flex, centrado, alineación superior y separación */
+/* Contenedor principal de información */
 .info-principal {
     display: flex;
     justify-content: center;
@@ -189,7 +189,7 @@ h2 {
     gap: 30px; 
 }
 
-/* Imagen dentro de info-principal: ancho relativo, altura fija, margin, borde redondeado */
+/* Imagen dentro de info-principal */
 .info-principal img {
     width: 45%; 
     height: 350px; 
@@ -198,13 +198,13 @@ h2 {
     border-radius: 8px; 
 }
 
-/* Contenedor de descripción de producto: ancho y margen inferior */
+/* Contenedor de descripción de producto */
 .descripcion-producto {
     width: 50%;
     margin-bottom: 30px;
 }
 
-/* Título h2 dentro de descripción: color, tamaño, borde inferior, padding y margen */
+/* Título h2 dentro de descripción */
 .descripcion-producto h2 {
     color: #4a2c1f;
     font-size: 1.8em;
@@ -213,7 +213,7 @@ h2 {
     margin-bottom: 5px; 
 }
 
-/* Contenedor de información adicional: flex, espacio entre elementos, wrap y gap */
+/* Contenedor de información adicional */
 .info-adicional {
     display: flex;
     justify-content: space-around;
@@ -222,7 +222,7 @@ h2 {
     padding: 20px 0;
 }
 
-/* Tabla de horarios: ancho máximo, centrado y border collapse */
+/* Tabla de horarios */
 .tabla-horarios {
     width: 100%; 
     max-width: 450px; 
@@ -230,21 +230,21 @@ h2 {
     margin: 15px auto; 
 }
 
-/* Primera fila de tabla de horarios: fondo, color de texto y negrita */
+/* Primera fila de tabla de horarios */
 .tabla-horarios tr:first-child {
     background-color: #c9a384; 
     color: white;
     font-weight: bold;
 }
 
-/* Celdas de tabla de horarios: borde, padding y alineación */
+/* Celdas de tabla de horarios */
 .tabla-horarios td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
 }
 
-/* Contenedor de contacto: padding, fondo blanco, borde, borde redondeado y ancho máximo */
+/* Contenedor de contacto */
 .contacto-simple {
     padding: 15px;
     background-color: white;
@@ -254,40 +254,29 @@ h2 {
     text-align: left;
 }
 
-/* Footer: ancho completo, fondo, color de texto, padding y centrado */
-footer {
-    width: 100%; 
-    background-color: #4a2c1f; 
-    color: white; 
-    padding: 5px 0; 
-    font-size: 14px;  
-    text-align: center;
-    position: relative; 
-    left: 0; 
-}
-
-/* Tabla de Instagram: centrado y sin separación de bordes */
+/* Tabla de Instagram */
 .tabla_instagram {
     margin: 10px auto; 
     border-collapse: collapse; 
 }
 
-/* Celdas de tabla de Instagram: padding horizontal */
+/* Celdas de tabla de Instagram */
 .tabla_instagram td {
     padding: 0 8px; 
 }
 
-/* Nombre de Instagram: inline-block y color */
+/* Nombre de Instagram */
 .instagram {
     display: inline-block;
     color: #f7f3e8; 
 }
 
-/* Enlaces de Instagram: sin subrayado */
+/* Enlaces de Instagram */
 .instagram-link {
     text-decoration: none;
 }
 
+/* Media query para pantallas pequeñas */
 @media (max-width: 350px) {
     header h1 {
         font-size: 1.5em; 
@@ -312,4 +301,3 @@ footer {
         font-size: 1em;       
     }
 }
-

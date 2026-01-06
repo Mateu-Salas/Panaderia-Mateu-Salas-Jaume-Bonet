@@ -1,77 +1,75 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión - PanaderiaDigital</title>
-    <link rel="stylesheet" href="CSS/Formularios.css">
+<!DOCTYPE html> <!-- Indica que el documento usa HTML5 -->
+<html lang="es"> <!-- Define el idioma principal de la página -->
+<head> <!-- Contiene configuración y metadatos -->
+    <meta charset="UTF-8"> <!-- Permite mostrar caracteres especiales correctamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la página a dispositivos móviles -->
+    <title>Iniciar Sesión - PanaderiaDigital</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="CSS/Formularios.css"> <!-- Archivo CSS que da estilo a la página de formularios -->
 </head>
-<body>
+<body> <!-- Inicio del contenido visible -->
 
-    <header>
-        <nav>
+    <header> <!-- Encabezado con navegación y título de la página -->
+        <nav> <!-- Barra de navegación -->
             <a href="index.html">Inicio</a> <!-- Enlace a la página principal -->
             <a href="contingut.html">Nuestros productos</a> <!-- Enlace al catálogo -->
             <a href="info.html">Sobre Nosotros</a> <!-- Enlace a la información de la panadería -->
             <a href="Login.html">Iniciar sesión</a> <!-- Enlace a iniciar sesión -->
             <a href="Contacte.html">Contacte</a> <!-- Enlace al contacto -->
         </nav>
-        <h1>Iniciar sesión</h1>
+        <h1>Iniciar sesión</h1> <!-- Título principal de la página -->
     </header>
 
-    <main>
-        <section class="caja-formulario">
-            <h2>Acceso Clientes</h2>
-            <form method="post">
+    <main> <!-- Contenido principal -->
+        <section class="caja-formulario"> <!-- Sección que contiene el formulario -->
+            <h2>Acceso Clientes</h2> <!-- Subtítulo de la sección -->
+            <form method="post"> <!-- Formulario de inicio de sesión -->
                 
-                <label for="usuario">Usuario o Email:</label>
+                <label for="usuario">Usuario o Email:</label> <!-- Etiqueta para el input de usuario -->
                 <input type="text" id="usuario" name="usuario" placeholder="Ej: usuario123" required 
                        minlength="4" maxlength="40" 
                        pattern="[a-zA-Z0-9@._-]+" 
-                       title="Solo se permiten letras, números y formato de email válido.">
+                       title="Solo se permiten letras, números y formato de email válido."> <!-- Campo de texto para usuario o email -->
 
-                <label for="password">Contraseña:</label>
+                <label for="password">Contraseña:</label> <!-- Etiqueta para el input de contraseña -->
                 <input type="password" id="password" name="password" required 
                        minlength="8" 
-                       title="La contraseña debe tener al menos 8 caracteres.">
+                       title="La contraseña debe tener al menos 8 caracteres."> <!-- Campo de contraseña -->
 
-                <button type="submit" class="btn-enviar">Iniciar Sesión</button>
-            </form>
+                <button type="submit" class="btn-enviar">Iniciar Sesión</button> <!-- Botón para enviar el formulario -->
+            </form> <!-- Fin del formulario -->
             
-        </section>
-    </main>
+        </section> <!-- Fin de la sección formulario -->
+    </main> <!-- Fin del contenido principal -->
 
     <footer> <!-- Pie de página con redes sociales e información -->
         <table class="tabla_instagram"> <!-- Tabla con enlaces de Instagram -->
             <tr> <!-- Fila de la tabla -->
                 <td> <!-- Celda con icono de Instagram -->
                     <a href="https://www.instagram.com/mateu_salas" target="_blank" class="instagram-link"> <!-- Enlace al perfil -->
-                    <img src="Imagenes/Instagram.png" width="20" alt="Instagram"> <!-- Icono -->
+                    <img src="Imagenes/Instagram.png" width="20" alt="Instagram"> <!-- Icono de Instagram -->
                     </a>
                 </td>
                 <td> <!-- Celda con nombre del perfil -->
-                    <a href="https://www.instagram.com/mateu_salas" target="_blank" class="instagram-link">
+                    <a href="https://www.instagram.com/mateu_salas" target="_blank" class="instagram-link"> <!-- Enlace al perfil -->
                     <span class="instagram">mateu_salas</span> <!-- Nombre del perfil -->
                     </a>
                 </td>
 
                 <td> <!-- Celda con icono de Instagram -->
-                    <a href="https://www.instagram.com/Jauume.07" target="_blank" class="instagram-link">
-                    <img src="Imagenes/Instagram.png" width="20" alt="Instagram"> <!-- Icono -->
+                    <a href="https://www.instagram.com/Jauume.07" target="_blank" class="instagram-link"> <!-- Enlace al perfil -->
+                    <img src="Imagenes/Instagram.png" width="20" alt="Instagram"> <!-- Icono de Instagram -->
                     </a>
                 </td>
                 <td> <!-- Celda con nombre del perfil -->
-                    <a href="https://www.instagram.com/Jauume.07" target="_blank" class="instagram-link">
+                    <a href="https://www.instagram.com/Jauume.07" target="_blank" class="instagram-link"> <!-- Enlace al perfil -->
                     <span class="instagram">Jauume.07</span> <!-- Nombre del perfil -->
                     </a>
                 </td>
-            </tr>
-        </table>
+            </tr> <!-- Fin de la fila de Instagram -->
+        </table> <!-- Fin de la tabla de Instagram -->
         <p>© 2025 PanaderiaDigital by Mateu & Jaume. Todos los derechos reservados.</p> <!-- Derechos reservados -->
         <p>Made with ❤️ by Mateu & Jaume</p> <!-- Créditos finales -->
-    </footer>
-</body>
-</html>
+    </footer> <!-- Fin pie de página -->
 
-</body>
-</html>
+</body> <!-- Fin del contenido visible -->
+</html> <!-- Fin del documento HTML -->

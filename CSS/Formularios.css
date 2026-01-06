@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* Estilos generales del body: fondo, color, fuente, altura mínima completa y flex vertical */
+/* Estilos generales del body */
 body {
     background-color: #f7f3e8; 
     color: #333;
@@ -17,19 +17,19 @@ body {
     flex-direction: column;
 }
 
-/* Enlaces: sin subrayado y heredan color */
+/* Enlaces */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Imágenes: ancho máximo 100% y altura automática */
+/* Imágenes */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Header: fondo, color, flex vertical, centrado y padding inferior */
+/* Header */
 header {
     background-color: #c9a384; 
     color: white;
@@ -40,7 +40,7 @@ header {
     text-align: center;
 }
 
-/* Barra de navegación: ancho completo, fondo oscuro, flex centrado y separación */
+/* Barra de navegación */
 nav {
     width: 100%;
     background-color: rgb(44, 44, 44); 
@@ -50,33 +50,33 @@ nav {
     padding: 10px 0; 
 }
 
-/* Enlaces dentro de nav: color blanco, padding y fuente normal */
+/* Enlaces dentro de nav */
 nav a {
     color: white;
     padding: 5px 10px;
     font-weight: normal; 
 }
 
-/* Título principal del header: tamaño grande y margen superior */
+/* Título principal del header */
 header h1 {
     font-size: 2.5em;
     margin-top: 15px;
     margin-bottom: 0;
 }
 
-/* Subtítulo: tamaño mediano y sin margenes */
+/* Subtítulo del header */
 .subtitulo-header {
     font-size: 1.5em;
     margin: 0;
 }
 
-/* Párrafo del header: margen superior y cursiva */
+/* Párrafo del header */
 header p {
     margin-top: 5px;
     font-style: italic;
 }
 
-/* Contenido principal: padding, flex centrado y ocupa el espacio sobrante */
+/* Contenido principal */
 main {
     padding: 40px 20px;
     display: flex; 
@@ -85,7 +85,7 @@ main {
     flex: 1;
 }
 
-/* Caja del formulario: fondo blanco, borde, sombra y ancho máximo limitado */
+/* Caja del formulario */
 .caja-formulario {
     background-color: white;
     border: 1px solid #ddd;
@@ -96,7 +96,7 @@ main {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Título del formulario: color, borde inferior y margen */
+/* Título del formulario */
 .caja-formulario h2 {
     color: #4a2c1f;
     border-bottom: 2px solid #c9a384;
@@ -105,7 +105,7 @@ main {
     text-align: center;
 }
 
-/* Etiquetas: bloque, negrita, color y margen superior */
+/* Etiquetas del formulario */
 label {
     display: block;
     margin-bottom: 5px;
@@ -114,12 +114,12 @@ label {
     margin-top: 15px;
 }
 
-/* Primera etiqueta: sin margen superior */
+/* Primera etiqueta del formulario */
 label:first-of-type {
     margin-top: 0;
 }
 
-/* Campos de texto: ancho completo, padding y borde redondeado */
+/* Campos de texto */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -129,14 +129,14 @@ input, textarea {
     font-size: 14px;
 }
 
-/* Estado foco: quita borde por defecto, color de marca y fondo claro */
+/* Estado foco de campos */
 input:focus, textarea:focus {
     outline: none;
     border-color: #c9a384;
     background-color: #fffaf5;
 }
 
-/* Botón de enviar: bloque, color de fondo, borde redondeado y cursor */
+/* Botón de enviar */
 .btn-enviar {
     display: block;
     width: 100%;
@@ -151,25 +151,25 @@ input:focus, textarea:focus {
     cursor: pointer;
 }
 
-/* Hover del botón: color de fondo más oscuro */
+/* Hover del botón de enviar */
 .btn-enviar:hover {
     background-color: #a88165;
 }
 
-/* Pie del formulario: centrado y tamaño de fuente pequeño */
+/* Pie del formulario */
 .pie-form {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
 }
 
-/* Enlace del pie del formulario: color y subrayado */
+/* Enlace del pie del formulario */
 .pie-form a {
     color: #4a2c1f;
     text-decoration: underline;
 }
 
-/* Footer: ancho completo, fondo oscuro, texto blanco, centrado y relativo */
+/* Footer */
 footer {
     width: 100%; 
     background-color: #4a2c1f; 
@@ -181,18 +181,18 @@ footer {
     left: 0; 
 }
 
-/* Tabla de Instagram: centrado y borde colapsado */
+/* Tabla de Instagram */
 .tabla_instagram {
     margin: 0 auto;
     border-collapse: collapse;
 }
 
-/* Celdas de la tabla: padding horizontal */
+/* Celdas de la tabla de Instagram */
 .tabla_instagram td {
     padding: 0 8px;
 }
 
-/* Enlaces de Instagram: color claro */
+/* Enlaces de Instagram */
 .instagram-link {
     color: #f7f3e8;
 }
