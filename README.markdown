@@ -22,6 +22,15 @@ El projecte s'ha realitzat de manera col·laborativa(**50% / 50%**):
 ![Responsive](Imagenes/Responsive_Index_columnas.png)
 ![No_Responsive](Imagenes/Responsive_index_fila.png)
 
+**Implementació dels formularis**
+Hem implementat els formularis de manera que els nostres clients ens puguin contactar fàcilment via correu electrònic sense que surtin de la web.
+
+Hem utilitzat inputs de text, correu i contrasenya.
+
+S'han aplicat els mateixos estils de la pàgina per fer que no perdi res de coherencia visual.
+
+Hemos puesto patterns para que tengas que poner un tipo especial de letras o combinaciones para que no haya problemas.
+
 ---
 
 ## 📂 Estructura de Carpetes i Arxius
